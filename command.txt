@@ -1,0 +1,3 @@
+flex program.l
+bison -dy program.y
+gcc lex.yy.c program.tab.c -o app
